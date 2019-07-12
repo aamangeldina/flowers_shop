@@ -1,0 +1,232 @@
+html, 
+body {
+    font-family: serif;
+    font-size: 22px;
+    color:black;
+    background-color: white;    
+    overflow: scroll;
+
+}
+
+.Header {
+    height: 69px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    position: fixed;
+    top:1px;
+    width: 100%;
+    z-index: 5;
+    background-color: white;
+    color: grey;
+}
+
+nav {
+    margin: 0;
+    padding: 5px 10px 50px 800px;
+  }
+
+nav a  {
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 25px;
+}
+
+.Header a {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+.logo img{
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 5px;
+    position:absolute; 
+    top: 1px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .Intro_text{
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    z-index: 5;
+    font-size: 12px;
+    color: white;
+    font-family: serif;
+  }
+
+  .img{
+    position: absolute;
+    top: 70px;
+    padding-left: 0px;
+      width:1270px;
+      height: 600px;
+      overflow: scroll;
+
+  }
+
+  .order_button a{
+      background-color: white;
+      color: rgb(66, 66, 66);
+      border-radius: 15px;
+      width: 150px;
+      height: 30px;
+      text-align: center;
+      padding-top: 10px;
+      position: absolute;
+     top: 190px;     
+  }
+
+h1{
+    font-size: 40px;
+}
+.footer {
+    padding: 0 0 0 500px;
+    text-align: center;
+    position:absolute;
+    top: 700px;
+  }
+
+  .footer p{
+      font-size: 12px;
+      color:white; 
+  }
+
+  .text_shop li{
+    list-style: none;
+    display: inline;
+    font-size: 12px;
+    text-transform:uppercase;
+    margin: 10px 40px;
+  }
+    
+
+  .text_shop{
+    text-align: center;
+    color:black;
+    margin-top: 0px;
+  }
+
+  .item_shop img{
+    width: 200px;
+    height: 195px;
+  }
+
+  .item_shop{
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    padding:20px 15px;
+    margin-left: 60px;
+ 
+  }
+
+  .item_shop p{
+    text-align:center;
+    color:black;
+  }
+
+.text_shop a{
+  color:black;
+  text-transform:uppercase;
+  font-size: 12px;
+  padding:20px 30px;
+}
+
+.phone{ 
+  text-align:center; 
+  color:black;
+  font-size: 14px;
+}
+
+.current_page{
+  text-decoration: underline;
+}
+
+.body_aboutus{
+  margin-top: 0px;
+}
+
+p{
+  font-size:16px;
+  font-style: normal;
+}
+
+.short_intro{
+  position: absolute; 
+  margin: 50px 400px 200px 80px;  
+}
+
+.author{ 
+  margin-top: 40px;
+  color: rgb(170, 169, 169);
+}
+
+.long_intro{
+  position: absolute; 
+  margin: 0px 40px 100px 830px; 
+  text-align: center; 
+  padding-top:0px;
+}
+
+.pic img{
+  height: 400px;
+  position: absolute;
+  margin: 0px 300px 40px 440px;  
+
+}
+
+.more{
+  color:white;
+  background-color: grey;
+  width: 200px;
+  height: 30px; 
+  position: relative;
+  margin-left: 50px;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+
+.oproekte{
+  position: absolute; 
+  margin: 200px 400px 200px 150px;  
+  text-align: center;
+}
+
+.pic2 img{
+  height: 400px;
+  position: absolute;
+  margin: 100px 300px 40px 740px; 
+}
+
+
+.contact_container{
+  position: relative;
+  text-align: center;
+}
+
+.contact_text{
+  position: absolute;
+    top: 180px;
+    left: 480px;
+    z-index: 5;
+    font-size: 24px;
+    color:rgb(94, 94, 94);
+}
+.contact_text p{
+  font-size: 22px;
+}
+
+.more a{
+  color: white;
+}
+
